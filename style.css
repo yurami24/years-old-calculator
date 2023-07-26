@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(221, 221, 221);
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  padding: 1.5rem;
+  background-color: rgb(243, 235, 235);
+  width: max-content;
+  border-radius: 10pt 10pt 50pt 10pt;
+}
+
+.borndate-form {
+  gap: 1rem;
+}
+
+label {
+  text-transform: uppercase;
+  font-size: 10pt;
+  font-weight: 600;
+  letter-spacing: 2pt;
+}
+
+input {
+  margin-top: 0.5rem;
+  height: 2rem;
+  border: 1px solid rgb(0, 0, 0);
+  /*border-style: none;*/
+  border-radius: 5px;
+  width: 6rem;
+  background-color: rgb(243, 235, 235);
+  padding-inline: 1rem;
+  font-weight: bold;
+}
+
+.sent-data-button {
+  background-color: rgb(161, 101, 196);
+  position: relative;
+  top: 2.5rem;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50pt;
+}
+
+.days,
+.months,
+.years {
+  color: rgb(161, 101, 196);
+}
+
+.results {
+  font-weight: bold;
+  font-style: italic;
+}
+
+input:focus{
+  border: 2pt solid rgb(161, 101, 196);
+}
